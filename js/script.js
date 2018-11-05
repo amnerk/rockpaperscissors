@@ -4,8 +4,9 @@
 
 //GLOBAL VARIABLES
 /* global $ */
-
-
+$("#userchoice").click(function(){
+    $("#message").text($().val());
+});
 
 // DOCUMENT READY FUNCTION BELOW
 
