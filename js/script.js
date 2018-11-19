@@ -4,8 +4,13 @@
 
 //GLOBAL VARIABLES
 /* global $ */
-$("#userchoice").click(function(){
-    $("#message").text($().val());
+var userChoice = "";
+var computerChoice = "";
+var winner = "";
+var randomNumber = 0;
+$("#shoot").click(function(){
+    userChoice = $("#input").val();
+    $("#userChoice").text(userChoice);
 });
 
 // DOCUMENT READY FUNCTION BELOW
