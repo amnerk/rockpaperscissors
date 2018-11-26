@@ -7,3 +7,12 @@
   justify-content:space-between;
   
 }
+
+#result {
+  font-family: 'PepsiCyrLatRegular';
+  font-size: 40px;
+}
+
+body {
+  background-color: #ffe1ed;
+}
